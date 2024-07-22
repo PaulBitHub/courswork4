@@ -1,6 +1,5 @@
 from src.hh_api import HeadHunterAPI
 from src.json_saver import JSONSaver
-from src.vacancy import Vacancy
 
 
 def user_choice():

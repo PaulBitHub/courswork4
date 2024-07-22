@@ -27,7 +27,7 @@ class Vacancy:
 
     @staticmethod
     def vacancies_lst(vacancy_lst):
-        """ Метод возвращает вакацнию в виде списка """
+        """ Метод возвращает вакансию в виде списка """
 
         return Vacancy(
             vacancy_lst["name"],
@@ -42,7 +42,7 @@ class Vacancy:
         )
 
     def vacancies_dict(self):
-        """ Метод возвращает вакацнию в виде словаря """
+        """ Метод возвращает вакансию в виде словаря """
 
         return {
             "name": self.name,
