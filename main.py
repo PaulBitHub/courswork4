@@ -2,7 +2,7 @@ from src.utils import user_choice
 
 
 def main():
-    print("Здравствуйте!\n")
+    print("Приветствую Вас!\n")
     user_choice()
 
 
