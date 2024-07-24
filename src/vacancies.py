@@ -1,6 +1,5 @@
 
 class Vacancies:
-
     """ Класс для обработки вакансии """
 
     def __init__(self):
@@ -14,10 +13,12 @@ class Vacancies:
         return self.__all_vacancies
 
     def to_list_dict(self):
+        """Метод для создания словаря по данным списка"""
         list_dict = []
         for i in self.__all_vacancies:
             list_dict.append(i.vacancies_dict())
         return list_dict
 
     def sorted_vacancy_by_salary(self):
+        """Сортировка вакансий по величине заработной платы"""
         self.__all_vacancies.sort(reverse=True)

@@ -13,6 +13,7 @@ class Vacancy:
         self.responsibility = responsibility
 
     def __str__(self):
+        """Метод для вывода пользовательской информации по вакансии и условиям"""
         return (f"Наименование вакансии: {self.name},\n"
                 f"Ссылка на вакансию: {self.alternate_url},\n"
                 f"Зарплата: от {self.salary_from} до {self.salary_to},\n"

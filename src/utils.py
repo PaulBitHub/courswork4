@@ -3,6 +3,7 @@ from src.json_saver import JSONSaver
 
 
 def user_choice():
+    """Функция взаимодействия с пользователем"""
     keyword = input("Какую профессию Вы ищите?\n").lower()
     per_page = int(input("Сколько профессии необходимо вывести?\n"))
 
